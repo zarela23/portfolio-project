@@ -1,7 +1,70 @@
 /*font-family: 'Poppins', sans-serif; */
+:root {
+  --main-color: #f57b51;
+  --secondary-color: #fbf2d5;
+  --tertiary-color: #d1cebd;
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
-h1 {
-  color: blue;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+body {
+  font-family: "Poppins";
+  overflow-x: hidden;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#hero {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 54px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+#hero {
+  background-color: var(--secondary-color);
+  margin-right: 0px;
+  padding: 50px 0px 50px 50px;
+  max-width: 100%;
+}
+
+#CTA-button {
+  background: var(--main-color);
+  border-radius: 16px;
+  padding: 20px 30px;
+  font-size: 24px;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  font-family: 500;
+}
+
+#CTA-button:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.highlighted-info {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
