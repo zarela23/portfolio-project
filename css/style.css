@@ -183,6 +183,21 @@ section {
   color: white;
 }
 
+.email-link {
+  color: var(--main-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.nuevo {
+  margin-top: 3rem;
+}
+
 @media (max-width: 768px) {
   #hero {
     padding: 20px;
