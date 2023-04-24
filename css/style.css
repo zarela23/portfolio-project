@@ -91,11 +91,6 @@ h5 {
   opacity: 0.8;
 }
 
-.col-md-6 {
-  margin-top: 20px;
-  padding: 0px;
-}
-
 .col-sm-2 {
   font-size: 4em;
   width: 40px;
@@ -168,6 +163,24 @@ section {
 .github-link {
   text-decoration: none;
   color: #f57b51;
+}
+
+.row {
+  display: flex;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.contact-link {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 @media (max-width: 768px) {
